@@ -1,4 +1,4 @@
-_This project is created with a purpose to fulfil algorithm and programming's final project assignment._
+_This project is created with a purpose to fulfill algorithm and programming's final project assignment._
 
 ## Cashier Program
 Cashier program is a program....... (isi sendiri)
