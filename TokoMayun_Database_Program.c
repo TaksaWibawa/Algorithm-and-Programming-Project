@@ -30,14 +30,14 @@ void checkData(){
     system("clear");
     
 
-    if ((data = fopen("data.bin","rb")) == NULL){
+    if ((data = fopen("data.bin","rb")) != NULL){
+        printf("Data ditemukan!\n");
+    } else {
         printf("Error: File tidak ada, akan dibuatkan data baru\n");
         data = fopen("data.bin", "wb");
-    } else {
-        printf("Data ditemukan!\n");
     }
     fclose(data);
-    printf("Press any key to continue");
+    system("pause");
     system("read -n1 -p '' key");
 }
 
@@ -55,24 +55,27 @@ int main(){
     checkData();
     FILE *data = fopen("data.bin", "ab");
     dataSize();
-
-    int pil = menu();
-    char lanjut;
-
+    int pil;
     enum option{CREATE = 1, READ, UPDATE, DELETE, FINISH};
-
-    while(pil != FINISH){
-        switch (pil){
+    do{
+        pil = menu();
+        switch(pil){
             case CREATE:
-                printf("----Menambah Data Barang----\n\n");
-                int bab = sizeof(Item);
-                printf("%d", bab);
                 addData();
                 break;
-            
             case READ:
-                printf("");
+                checkData();
+                break;
+            case UPDATE:
+                break;
+            case DELETE:
+                break;
+            case FINISH:
+                printf("terima kasih telah menggunakan program ini\n");
+                break;
+            default:
+                printf("Input salah!\n");
+                break;
         }
-    }
-
+    }while(pil != FINISH);
 }
