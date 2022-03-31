@@ -1,17 +1,19 @@
 This project is created with a purpose to fulfil algorithm and programming's final project.
-## Program Kasir
+
+## Cashier Program
 Created on _Tanggal_ </br>
 Created with _**C Language**_ </br>
 
-## Concept used :
+## Concept Used
 - Array
 - Pointer
 - blabla
 - blabla
 
+## Contributor
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/krisnadwipayana07"><img src="https://avatars.githubusercontent.com/u/72346645?v=4?s=100" width="100px;" alt=""/><br /><sub><b>I Kadek Krisna Dwi Payana</b></sub></a><br /><a href="https://github.com/SIC-Unud/Main-WebApp/commits?author=krisnadwipayana07" title="Code">💻</a> <a href="https://github.com/SIC-Unud/Main-WebApp/commits?author=krisnadwipayana07" title="Documentation">📖</a> <a href="#tool-krisnadwipayana07" title="Tools">🔧</a> <a href="#eventOrganizing-krisnadwipayana07" title="Event Organizing">📋</a><a href="https://github.com/SIC-Unud/Main-WebApp/pulls?q=is%3Apr+reviewed-by%3Akrisnadwipayana07" title="Reviewed Pull Requests">👀</a></td>
+    <td align="center"><a href="https://github.com/TaksaWibawa"><img src="https://avatars.githubusercontent.com/u/98959851?v=4" width="100px;" alt=""/><br /><sub><b>I Kadek Krisna Dwi Payana</b></sub></a><br /><a href="https://github.com/SIC-Unud/Main-WebApp/commits?author=krisnadwipayana07" title="Code">💻</a> <a href="https://github.com/SIC-Unud/Main-WebApp/commits?author=krisnadwipayana07" title="Documentation">📖</a> <a href="#tool-krisnadwipayana07" title="Tools">🔧</a> <a href="#eventOrganizing-krisnadwipayana07" title="Event Organizing">📋</a><a href="https://github.com/SIC-Unud/Main-WebApp/pulls?q=is%3Apr+reviewed-by%3Akrisnadwipayana07" title="Reviewed Pull Requests">👀</a></td>
     <td align="center"><a href="https://github.com/audipasuatmadi"><img src="https://avatars.githubusercontent.com/u/63685606?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Putu Audi Pasuatmadi</b></sub></a><br /><a href="https://github.com/SIC-Unud/Main-WebApp/commits?author=audipasuatmadi" title="Code">💻</a> <a href="https://github.com/SIC-Unud/Main-WebApp/commits?author=audipasuatmadi" title="Documentation">📖</a> <a href="#tool-audipasuatmadi" title="Tools">🔧</a> <a href="#mentoring-audipasuatmadi" title="Mentoring">🧑‍🏫</a> <a href="https://github.com/SIC-Unud/Main-WebApp/pulls?q=is%3Apr+reviewed-by%3Aaudipasuatmadi" title="Reviewed Pull Requests">👀</a></td>
     <td align="center"><a href="https://github.com/deedima3"><img src="https://avatars.githubusercontent.com/u/54178249?v=4" width="100px;" alt=""/><br /><sub><b>Gede Sudimahendra</b></sub></a><br /><a href="https://github.com/SIC-Unud/Main-WebApp/commits?author=deedima3" title="Code">💻</a> <a href="https://github.com/SIC-Unud/Main-WebApp/commits?author=deedima3" title="Documentation">📖</a> <a href="#tool-deedima3" title="Tools">🔧</a><a href="#maintenance-deedima3" title="Maintenance">🚧</a></td>
     <td align="center"><a href="https://github.com/kompiangg"><img src="https://avatars.githubusercontent.com/u/51501141?v=4" width="100px;" alt=""/><br /><sub><b>Kompiang Gede Sukadharma</b></sub></a><br /><a href="https://github.com/SIC-Unud/Main-WebApp/commits?author=kompiangg" title="Code">💻</a> <a href="https://github.com/SIC-Unud/Main-WebApp/commits?author=kompiangg" title="Documentation">📖</a> <a href="#tool-kompiangg" title="Tools">🔧</a><a href="#infra-deedima3" title="Infrastructure">🚇</a></td>
