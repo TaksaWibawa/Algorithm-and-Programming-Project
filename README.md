@@ -1,7 +1,7 @@
 _This project is created with a purpose to fulfill algorithm and programming's final project assignment._
 
-## Cashier Program
-Cashier program is a program....... (isi sendiri)
+## Toko Mayun Database Program
+// Tentang Program
 
 ## Concept Used
 - Array
