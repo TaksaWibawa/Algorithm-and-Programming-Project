@@ -14,7 +14,7 @@ FILE *data;
 int menu(){
     int input;
     system("clear");
-    printf("\nProgram Database Toko Mayun\n");
+    printf("\nProgram Database Toko Mayun Com\n");
     printf("=================================\n");
     printf("1. Tambah Barang\n");
     printf("2. Tampilkan Barang\n");
