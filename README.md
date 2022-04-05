@@ -12,7 +12,7 @@ _This project is created with a purpose to fulfill algorithm and programming's f
 <table>
   <tr>
     <td width="220px;" align="center">
-      <a href="https://github.com/TaksaWibawa"><img src="blob:https://web.whatsapp.com/8def68ce-b249-4330-8896-3de2a88018d6" width="100px;" alt=""/><br /><sub><b>I Gusti Agung Gede Ary Mahayasa</b></sub></a><br /><sub><b>2108561087</b></sub><br /><sub><b>Class D</b></sub>
+      <a href="https://github.com/TaksaWibawa"><img src="https://ibb.co/BcDRmG9" width="100px;" alt=""/><br /><sub><b>I Gusti Agung Gede Ary Mahayasa</b></sub></a><br /><sub><b>2108561087</b></sub><br /><sub><b>Class D</b></sub>
     </td>
     <td width="220px;" align="center">
       <a href="https://github.com/bayusiaka"><img src="https://avatars.githubusercontent.com/u/100296917?v=4" width="100px;" alt=""/><br /><sub><b>Made Bayu Maha Krisna Siaka</b></sub></a><br /><sub><b>210856195</b></sub><br /><sub><b>Class D</b></sub>
