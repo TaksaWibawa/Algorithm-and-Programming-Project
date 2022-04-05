@@ -12,7 +12,7 @@ void searchItem(){
     printf("+================================================+\n");
     printf("Pilih [1 - 3] : "); scanf("%d", &input);
     if(input == 1){
-
+        
     }
     else if(input == 2){
 
@@ -31,8 +31,7 @@ void transaksi(){
     titlePembeli();
     printf("| Menu                                           |\n");
     printf("| 1. Membeli Barang                              |\n");
-    printf("| 2. Menjual Barang                              |\n");
-    printf("| 3. Kembali                                     |\n");
+    printf("| 2. Kembali                                     |\n");
     printf("+================================================+\n");
     printf("Pilih [1 - 3] : "); scanf("%d", &input);
     if(input == 1){
