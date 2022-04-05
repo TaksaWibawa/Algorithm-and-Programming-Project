@@ -24,7 +24,7 @@ _This project is created with a purpose to fulfill algorithm and programming's f
       <a href="https://github.com/devaakrishna"><img src="https://avatars.githubusercontent.com/u/100296651?v=4" width="100px;" alt=""/><br /><sub><b>Deva Krishna Ananda</b></sub></a><br /><sub><b>2108561114</b></sub><br /><sub><b>Class D</b></sub>
     </td>
     <td width="220px;" align="center">
-      <a href="https://github.com/TaksaWibawa"><img src="https://avatars.githubusercontent.com/u/98959851?v=4" width="100px;" alt=""/><br /><sub><b>I Gusti Ngurah Arya Wira</b></sub></a><br /><sub><b>2108561119</b></sub><br /><sub><b>Class D</b></sub>
+      <a href="https://github.com/aryawirap"><img src="https://avatars.githubusercontent.com/u/95255812?v=4" width="100px;" alt=""/><br /><sub><b>I Gusti Ngurah Arya Wira</b></sub></a><br /><sub><b>2108561119</b></sub><br /><sub><b>Class D</b></sub>
     </td>
   </tr>
 </table>
