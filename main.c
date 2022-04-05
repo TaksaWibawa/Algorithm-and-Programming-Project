@@ -18,7 +18,7 @@ int main(){
             case BUYER:
                 menuPembeli();
                 pause();
-                break;
+                break;    
             case SELLER:
                 menuPenjual();
                 pause();
