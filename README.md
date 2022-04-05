@@ -1,13 +1,12 @@
 _This project is created with a purpose to fulfill algorithm and programming's final project assignment._
 
-## Toko Mayun Database Program
-// Tentang Program
-
+## Program Toko Komputer Mayun
+  Kemajuan teknologi terasa semakin pesat, terutama dalam bidang teknologi informasi.. Informasi merupakan salah satu bagian untuk dapat mendukung kemajuan suatu perusahaan maupun instansi tertentu dengan tujuan memperkecil pengeluaran biaya dan mempersingkat waktu kerja. Atas dasar tujuan tersebut, perlu adanya dukungan pada keberadaan sistem informasi. Agar dapat menghasilkan suatu informasi yang berkualitas dan memenuhi persyaratan suatu informasi yang akurat, relevan, serta tepat waktu, diperlukan keberadaan sistem teknologi informasi yang andal. Penggunaan teknologi tersebut akan berdampak baik terhadap jalannya roda usaha.
+  Program yang kami buat berfungsi untuk menyediakan sistem database dan kasir???? pada penjualan barang elektronik khususnya komputer, yang dioperasikan saat ada penambahan barang atau perubahan barang. Dengan program yang dibuat, para penjual tidak perlu lagi mencatat barang secara manual. Program secara otomatis akan menghitung jumlah barang.
+  Konsep program ini adalah membuat suatu program yang dapat menambah, menampilkan, mengubah, dan menghapus data yang ada dalam file database. Dengan menu utama program yang juga terdapat menu kasir yang terhubung dengan file database tersebut.
+  
 ## Concept Used
-- Array
-- Pointer
-- blabla
-- blabla
+//Konsep yang dipake
 
 ## Contributor
 <table>
