@@ -17,7 +17,7 @@ void titlePenjual(){
     printf("|      Simulasi Program Toko Komputer Mayun      |\n");
     printf("|                (Menu Penjual)                  |\n");
     printf("+================================================+\n");
-}
+} 
 
 void titleUtama(){
     clear();
