@@ -53,7 +53,7 @@ void deleteData(){
     FILE* dataBarang;
     FILE* temp;
     dataBarang = fopen("database/dataBarang.bin", "rb");
-    temp = fopen("temp.bin", "wb");
+    temp = fopen("database/temp.bin", "wb");
     int kode, found = 0;
     printf("Masukkan kode barang: "); scanf("%d", &kode);
 
@@ -66,7 +66,7 @@ void deleteData(){
     fclose(temp);
 
     if(found){
-        temp = fopen("temp.bin", "rb");
+        temp = fopen("database/temp.bin", "rb");
         dataBarang = fopen("database/dataBarang.bin", "wb");
 
         while(fread(&d1, sizeof(Item), 1, temp)){
@@ -87,7 +87,7 @@ void updateData(){
     FILE* dataBarang;
     FILE* temp;
     dataBarang = fopen("database/dataBarang.bin", "rb");
-    temp = fopen("temp.bin", "wb");
+    temp = fopen("database/temp.bin", "wb");
     int kode, found = 0;
     printf("Masukkan kode barang: "); scanf("%d", &kode);
 
@@ -112,7 +112,7 @@ void updateData(){
     fclose(temp);
 
     if(found){
-        temp = fopen("temp.bin", "rb");
+        temp = fopen("database/temp.bin", "rb");
         dataBarang = fopen("database/dataBarang.bin", "wb");
 
         while(fread(&d1, sizeof(Item), 1, temp)){

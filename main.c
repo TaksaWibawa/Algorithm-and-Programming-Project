@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "menu.h"
-#include "others.h"
+#include "library/menu.h"
+#include "library/others.h"
 
 int main(){
     int pil;
@@ -17,11 +17,11 @@ int main(){
         switch(pil){
             case BUYER:
                 menuPembeli();
-                pause();
+                system("pause");
                 break;    
             case SELLER:
                 menuPenjual();
-                pause();
+                system("pause");
                 break;
             case EXIT:
                 titleUtama();
@@ -29,7 +29,6 @@ int main(){
                 exit(0);
                 break;
             default:
-                printf("Pilihan Salah!\n");
                 break;
         }
     } while(pil != EXIT);
