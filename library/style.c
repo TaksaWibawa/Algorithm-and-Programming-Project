@@ -25,3 +25,11 @@ void titleUtama(){
     printf("|      Simulasi Program Toko Komputer Mayun      |\n");
     printf("+================================================+\n");
 }
+
+void titleDataUser(){
+    clear();
+    printf("+================================================+\n");
+    printf("|      Simulasi Program Toko Komputer Mayun      |\n");
+    printf("|              (User Data Penjual)               |\n");
+    printf("+================================================+\n");
+} 

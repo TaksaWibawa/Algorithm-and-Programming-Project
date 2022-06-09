@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "login.h"
 
 typedef struct Item {
     int kodeBarang;
@@ -6,8 +7,6 @@ typedef struct Item {
     char nama[20];
     long harga;
 } Item;
-
-// Menu - Menu masih ada bug keknya, Kalo inputan datanya banyak
 
 void displayData(){
     Item d1;
@@ -97,7 +96,6 @@ void updateData(){
         if(d1.kodeBarang == kode){
             found = 1;
             printf("%-14d %-20s %-15ld %-15d\n", d1.kodeBarang, d1.nama, d1.harga, d1.jumlah);
-
             printf("Ubah Data:\n");
             fflush(stdin);
             printf("Nama barang   : "); scanf("%[^\n]s", d1.nama);
@@ -126,38 +124,42 @@ void updateData(){
 
 void menuPenjual(){
     int input;
-    clear();
-    titlePenjual();
-    printf("| 1. Menambah Barang                             |\n");
-    printf("| 2. Menghapus Barang                            |\n");
-    printf("| 3. Mengubah Stok Barang                        |\n");
-    printf("| 4. Menampilkan Stok Barang                     |\n");
-    printf("| 5. Kembali                                     |\n");
-    printf("+================================================+\n");
-    printf("Pilih [1 - 5] : "); scanf("%d", &input);
-    enum option{add = 1, delete, update, show, back};
-    switch(input){
-        case add:
-            addData();
-            system("pause");
-            break;
-        case delete:
-            deleteData();
-            system("pause");
-            break;
-        case update:
-            updateData();
-            system("pause");
-            break;
-        case show:
-            displayData();
-            system("pause");
-            break;
-        case back:
-            break;
-        default:
-            printf("Pilih salah!\n");
-            break;
-    }
-    if(input != back) menuPenjual();
+    enum option{add = 1, delete, update, show, user, back};
+    do{
+        clear();
+        titlePenjual();
+        printf("| 1. Menambah Barang                             |\n");
+        printf("| 2. Menghapus Barang                            |\n");
+        printf("| 3. Mengubah Stok Barang                        |\n");
+        printf("| 4. Menampilkan Stok Barang                     |\n");
+        printf("| 5. Data User Penjual                           |\n");
+        printf("| 6. Kembali                                     |\n");
+        printf("+================================================+\n");
+        printf("Pilih [1 - 6] : "); scanf("%d", &input);
+        switch(input){
+            case add:
+                addData();
+                system("pause");
+                break;
+            case delete:
+                deleteData();
+                system("pause");
+                break;
+            case update:
+                updateData();
+                system("pause");
+                break;
+            case show:
+                displayData();
+                system("pause");
+                break;
+            case user:
+                userMenu();
+                break;
+            case back:
+                break;
+            default:
+                break;
+        }
+    }while(input != back);
 }

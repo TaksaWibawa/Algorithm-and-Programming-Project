@@ -5,6 +5,7 @@
 
 /* C Files declarations */
 #include "menuPembeli.c"
+#include "cashier.c"
 #include "menuPenjual.c"
 
 #endif // MENU_DOT_H
