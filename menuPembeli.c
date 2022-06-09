@@ -27,26 +27,7 @@ void searchItem(){
 
 void transaksi(){
     clear();
-    int input;
-    titlePembeli();
-    printf("| Menu                                           |\n");
-    printf("| 1. Membeli Barang                              |\n");
-    printf("| 2. Kembali                                     |\n");
-    printf("+================================================+\n");
-    printf("Pilih [1 - 3] : "); scanf("%d", &input);
-    if(input == 1){
-
-    }
-    else if(input == 2){
-
-    }
-    else if(input == 3){
-
-    }
-    else{
-        printf("Pilih salah!\n");
-    }
-}
+}   
 
 void review(){
     //review barang
@@ -66,17 +47,22 @@ void menuPembeli(){
     switch(input){
         case SEARCH:
             searchItem();
+            system("pause");
             break;
         case TRANSACTION:
             transaksi();
+            system("pause");
             break;
         case REVIEW:
             review();
+            system("pause");
             break;
         case BACK:
             break;
         default:
             printf("Pilih salah!\n");
+            system("pause");
             break;
     }
+    if(input != BACK) menuPembeli();
 }
