@@ -1,5 +1,13 @@
 #include <stdio.h>
+#include "menu.h"
 #include "others.h"
+
+typedef struct Item {
+    int kodeBarang;
+    int jumlah;
+    char nama[20];
+    long harga;
+} Item;
 
 void listItem(){
     clear();
@@ -18,7 +26,7 @@ void listItem(){
 
 void transaction(){
     clear();
-    
+    menuCashier();
 }
 
 
@@ -36,11 +44,11 @@ void menuPembeli(){
         switch(input){
             case SEARCH:
                 listItem();
-                system("pause");
+                pause();
                 break;
             case TRANSACTION:
                 transaction();
-                system("pause");
+                pause();
                 break;
             case BACK:
                 break;

@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "others.h"
+#include <conio.h>
 
 void clear(){
     #ifdef _WIN32
@@ -7,4 +7,9 @@ void clear(){
     #else
         std : system("clear");
     #endif
+}
+
+void pause(){
+    printf("Press any key to continue...");
+    getch();
 }

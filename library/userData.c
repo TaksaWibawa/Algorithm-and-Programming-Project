@@ -3,28 +3,28 @@
 #include <stdlib.h>
 #include "others.h"
 
-typedef struct Log {
+typedef struct login {
     char user[20];
     char pass[20];
-} Log;
+} login;
 
 void addUser(){
-    Log info;
+    login info;
     FILE* log;
     log = fopen("database/log.bin", "ab");
     printf("\nTambah Data\n"); fflush(stdin);
     printf("Masukkan Username: "); scanf("%[^\n]s", info.user); fflush(stdin);
     printf("Masukkan Password: "); scanf("%[^\n]s", info.pass); fflush(stdin);
-    fwrite(&info, sizeof(Log), 1, log);
+    fwrite(&info, sizeof(login), 1, log);
     fclose(log);
 }
 
 void displayUser(){
-    Log info;
+    login info;
     int i = 1;
     FILE* log;
     log = fopen("database/log.bin", "rb");
-    while(fread(&info, sizeof(Log), 1, log)){
+    while(fread(&info, sizeof(login), 1, log)){
         printf("\nNo       : %d\n", i);
         printf("Username : %s\n", info.user);
         printf("Password : %s\n", info.pass);
@@ -35,7 +35,7 @@ void displayUser(){
 
 void deleteUser(){
     displayUser();
-    Log info;
+    login info;
     FILE* log;
     FILE* temp;
     int found = 0;
@@ -44,10 +44,10 @@ void deleteUser(){
     temp = fopen("database/temp.bin", "wb");
     fflush(stdin);
     printf("\nMasukkan username: "); scanf("%[^\n]s", username);
-    while(fread(&info, sizeof(Log), 1, log)){
+    while(fread(&info, sizeof(login), 1, log)){
         if(strcmp(info.user, username) == 0){
             found = 1;
-        } else fwrite(&info, sizeof(Log), 1, temp);
+        } else fwrite(&info, sizeof(login), 1, temp);
     }
     fclose(log);
     fclose(temp);
@@ -57,8 +57,8 @@ void deleteUser(){
         temp = fopen("database/temp.bin", "rb");
         log = fopen("database/log.bin", "wb");
 
-        while(fread(&info, sizeof(Log), 1, temp)){
-            fwrite(&info, sizeof(Log), 1, log);
+        while(fread(&info, sizeof(login), 1, temp)){
+            fwrite(&info, sizeof(login), 1, log);
         } 
         fclose(log);
         fclose(temp);
@@ -83,15 +83,15 @@ int userMenu(){
         switch(pil){
             case CREATE:
                 addUser();
-                system("pause");
+                pause();
                 break;
             case READ:
                 displayUser();
-                system("pause");
+                pause();
                 break;
             case DELETE:
                 deleteUser();
-                system("pause");
+                pause();
                 break;
             case EXIT:
                 break;

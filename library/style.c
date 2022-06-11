@@ -32,4 +32,12 @@ void titleDataUser(){
     printf("|      Simulasi Program Toko Komputer Mayun      |\n");
     printf("|              (User Data Penjual)               |\n");
     printf("+================================================+\n");
+}
+
+void titleKasir(){
+    clear();
+    printf("+================================================+\n");
+    printf("|      Simulasi Program Toko Komputer Mayun      |\n");
+    printf("|                 (Menu Kasir)                   |\n");
+    printf("+================================================+\n");
 } 

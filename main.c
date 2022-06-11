@@ -4,7 +4,7 @@
 #include "library/others.h"
 #include "library/login.h"
 
-int main(){
+void main(){
     int pil;
     enum option{BUYER = 1, SELLER, EXIT};
     do{
@@ -18,13 +18,14 @@ int main(){
         switch(pil){
             case BUYER:
                 menuPembeli();
-                system("pause");
+                pause();
                 break;    
             case SELLER:
                 menuPenjual();
-                system("pause");
+                pause();
                 break;
             case EXIT:
+                clear();
                 titleUtama();
                 printf("Terima kasih telah menggunakan program kami!\n");
                 exit(0);
