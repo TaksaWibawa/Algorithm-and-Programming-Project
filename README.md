@@ -5,9 +5,6 @@ _This project is created with a purpose to fulfill algorithm and programming's f
   Program yang kami buat berfungsi untuk menyediakan sistem database dan kasir pada penjualan barang elektronik khususnya komputer, yang dioperasikan saat ada penambahan barang atau perubahan barang. Dengan program yang dibuat, para penjual tidak perlu lagi mencatat barang secara manual. Program secara otomatis akan menghitung jumlah barang.<br/><br/>
   Konsep program ini adalah membuat suatu program yang dapat menambah, menampilkan, mengubah, dan menghapus data yang ada dalam file database. Dengan menu utama program yang juga terdapat menu kasir yang terhubung dengan file database tersebut.
   
-## Concept Used
-//Konsep yang dipake
-
 ## Contributor
 <table>
   <tr>
