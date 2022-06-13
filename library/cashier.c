@@ -183,6 +183,8 @@ void changeItem(){
                 }
             }
             fwrite(&dataBeli, sizeof(Barang), 1, temp);
+        } else {
+            fwrite(&dataBeli, sizeof(Barang), 1, temp);
         }
     }
     fclose(item);
@@ -196,9 +198,9 @@ void changeItem(){
         while(fread(&dataBeli, sizeof(Barang), 1, temp)){
             fwrite(&dataBeli, sizeof(Barang), 1, item);
         }
-        displayItem();
         fclose(item);
         fclose(temp);
+        displayItem();
     } else printf("Data tidak ditemukan!\n");
 }
 
